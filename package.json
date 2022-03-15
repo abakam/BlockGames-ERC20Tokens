@@ -1,0 +1,21 @@
+{
+  "name": "ERCTokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deployStuffy-local": "npx hardhat run --network localhost scripts/deployStuffy.js",
+    "console-local": "npx hardhat console --network localhost",
+    "deployStuffy-rinkeby": "npx hardhat run --network rinkeby scripts/deployStuffy.js",
+    "console-rinkeby": "npx hardhat console --network rinkeby"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.6.0",
+    "hardhat": "^2.9.1"
+  }
+}
