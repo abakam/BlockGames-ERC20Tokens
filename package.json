@@ -8,7 +8,8 @@
     "deployStuffy-local": "npx hardhat run --network localhost scripts/deployStuffy.js",
     "console-local": "npx hardhat console --network localhost",
     "deployStuffy-rinkeby": "npx hardhat run --network rinkeby scripts/deployStuffy.js",
-    "console-rinkeby": "npx hardhat console --network rinkeby"
+    "console-rinkeby": "npx hardhat console --network rinkeby",
+    "deployRajesh-rinkeby": "npx hardhat run --network rinkeby scripts/deployRajesh.js"
   },
   "keywords": [],
   "author": "",
