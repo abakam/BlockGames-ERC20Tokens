@@ -1,5 +1,6 @@
 require('@nomiclabs/hardhat-ethers');
-const { apiKey, privateKey} = require('./secrets.json');
+require('@nomiclabs/hardhat-etherscan');
+const { apiKey, privateKey, etherScanApi } = require('./secrets.json');
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -13,4 +14,7 @@ module.exports = {
       gas: 100000000000000
     },
   },
+  etherscan: {
+    apiKey: etherScanApi
+  }
 };
